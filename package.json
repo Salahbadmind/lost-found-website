@@ -1,0 +1,24 @@
+{
+  "name": "lost-found-website",
+  "version": "1.0.0",
+  "description": "Lost & Found Items Website - MongoDB Mini Project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "lost-found",
+    "nosql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.18.2",
+    "mongodb": "^6.3.0"
+  }
+}
